@@ -12,10 +12,7 @@ max (dados_c1$educ,na.rm = TRUE) #maximo
 mean (dados_c1$wage,na.rm = TRUE)
 #baixo
 
-####fazer III #####
-####fazer IV #####
-
-#V - quantas mulheres e homens tem na amostra
+# V - quantas mulheres e homens tem na amostra
 table (dados_c1$female) #1 é femin e 0 é masc
 
 ############### EXERCICIO 2 ###############
@@ -50,7 +47,7 @@ table(dados_5$electric) #611 tem e 3747 nao tem
 611/4361
 table(dados_5$electric)/nrow(dados_5)#0.14 as que tem e 0.85 que nao tem
 
-####responder depois iv######
+# IV - 
 
 
 ############# EXERCICIO 6 ###########
@@ -71,7 +68,7 @@ mean(dados_1996$execs)
 # III - Calcular o coeficiente de correlação entre murders e execs
 cor(dados_1996$murders, dados_1996$execs)
 #discussão sobre a correlação
-#### fazer IV #######
+# IV -
 
 ########### EXERCICIO 7 ###########
 
@@ -86,5 +83,5 @@ table(dados_abusamdoalcool$status)/ nrow(dados_abusamdoalcool)*100
 # III - Dos que não abusao
 dados_naoabusam <- alcohol %>% filter (abuse == 0)
 table(dados_naoabusam$status)/ nrow(dados_naoabusam)*100
-# Iv - ##### fazer essa#####
+# IV - 
 
